@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Animated Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<div class="sidebar">
+  <h2>ADMIN</h2>
+  <ul>
+    <li class="active"><i class="fa fa-grid"></i> DASHBOARD</li>
+    <li><i class="fa fa-users"></i> USERS</li>
+    <li><i class="fa fa-chart-line"></i> REPORTS</li>
+    <li><i class="fa fa-gear"></i> SETTINGS</li>
+    <li><i class="fa fa-right-from-bracket"></i> LOGOUT</li>
+  </ul>
+</div>
+
+<div class="main">
+  <div class="header">
+    <h1>ADMIN DASHBOARD</h1>
+    <div class="profile">
+      <i class="fa fa-user-circle"></i> ADMIN
+    </div>
+  </div>
+
+  <div class="cards">
+    <div class="card delay1">
+      <i class="fa fa-users"></i>
+      <h4>Total Users</h4>
+      <p class="count" data-target="900">0</p>
+    </div>
+
+    <div class="card delay2">
+      <i class="fa fa-indian-rupee-sign"></i>
+      <h4>Revenue</h4>
+      <p class="count" data-target="80000">0</p>
+    </div>
+
+    <div class="card delay3">
+      <i class="fa fa-cart-shopping"></i>
+      <h4>Orders</h4>
+      <p class="count" data-target="420">0</p>
+    </div>
+  </div>
+
+  <div class="chart-box">
+    <h3>MONTHLY USERS</h3>
+    <canvas id="myChart"></canvas>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
