@@ -22,6 +22,3 @@ It allows the admin to manage users and view basic system information.
 1. Download or clone the project
 2. Open `index.html` in your browser
 
----
-
-Agar aapka dashboard backend (Java / PHP / Node) se connected hai toh batao, uske according bhi README bana dungi 😊
